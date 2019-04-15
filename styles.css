@@ -1,14 +1,11 @@
 :root {
-  --myred: #EB4024;
-  --myblue: #436789;
+  --myblue: #17234B;
+  --myred: #AD1F24;
+  --mygreen: #006600;
 }
 
 * {
   font-family: georgia;
-}
-
-h1, h2 {
-  color: var(--myblue);
 }
 
 a:link,
@@ -19,7 +16,7 @@ a:visited {
 }
 
 a:hover {
-  color: var(--myred);
+  color: var(--mygreen);
   font-weight: bold;
 }
 
@@ -29,9 +26,11 @@ footer {
 }
 
 header img {
-  width: 100%;
-  text-align: left;
-  padding: -2px 0px 0px 0px;
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 html {
@@ -39,12 +38,31 @@ html {
 }
 
 nav {
-  height: 47px;
-  background-color: var(--myred);
+  background-color: white;
+  width: 80%;
+  position: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--mygreen);
 }
+
+#ntext{
+  color: var(--mygreen);
+  }
+
+#navbarDropdown{
+}
+
+#navbarDropdown2{
+  background-color: var(--mygreen);
+  color: white;
+  }
 
 nav a {
   font-weight: bold;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
 }
 
 nav a:link {
@@ -52,6 +70,19 @@ nav a:link {
 }
 
 p {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+
+}
+
+h1 {
+  color: var(--mygreen);
+}
+
+h3 {
   text-align: justify;
   width: 90%;
   margin-left: auto;
@@ -68,61 +99,45 @@ p.gm-style-pbt {
   margin-right: auto;
 }
 
-#carouselExampleIndicators {
-  max-width: 700px;
-  width: 90%;
+
+.btn {
+  border-radius: 4px;
+  color: white;
+  background-color: green;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  border: 2px solid green;
+  color: green;
+  background: white;
+}
+
+.center {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px 0px 0px 0px;
-  background-color: black;
 }
 
-#map {
-  height: 70vh;  /* The height is 400 pixels */
-  width: 90%;  /* The width is the width of the web page */
+.contact {
+  border: 2px var(--mygreen);
+  text-align: center;
+  width:80%;
 }
 
-#error img {
-  width: 100%;
-  padding: 0px;
-}
-
-#movebtn {
-  transition: margin-left 0.5s;
-  position:absolute;
-  top: 50%;
-}
 
 .card {
   cursor: pointer;
 }
 
-.carousel-caption {
-  color: black;
-  background-color: rgb(255,255,255,0.7);
-  padding: 16px 0px 0px 0px;
-  bottom: 20px;
-}
-
-.carousel-indicators {
-  bottom: -8px;
-}
-
-.carousel-indicators li {
-  background-color: rgb(255,255,255,0.7);
-}
-
-.carousel-inner {
-  background-color: black;
-}
-
-.carousel-inner img {
-  height: 70vh;
-  object-fit: contain;
-}
-
-.center {
-  display: block;
+.main {
+  width:80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -150,22 +165,24 @@ p.gm-style-pbt {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: var(--myblue);
+  color: var(--myred);
+  background-color: white;
   overflow-x: hidden;
   padding-top: 110px;
   transition: 0.5s;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 20px;
   text-decoration: none;
-  color: rgba(255,255,255,.5);
+  color: var(--myblue);
   display: block;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .sidenav a:hover {
-  color: #fff;
+  color: var(--myred);
 }
 
 .sidenav .closebtn {
@@ -174,18 +191,20 @@ p.gm-style-pbt {
   right: 15px;
   font-size: 30px;
   margin-left: 50px;
+  cursor: pointer;
 }
 
 .sidenavbtn {
   position: fixed;
   font-size: 30px;
   cursor: pointer;
-  color: rgba(255,255,255,.5);
-  background-color: var(--myblue);
-  padding: 5px 15px 5px 15px;
+  color: var(--myblue);
+  padding: 5px 10px 5px 10px;
 }
 
 .sidenavbtn:hover {
-  color: #fff;
+  color: var(--myred);
+  cursor: pointer;
 }
+
 
