@@ -38,21 +38,26 @@ html {
 }
 
 nav {
-  background-color: white;
+  background-color: #F2F2F2;
   width: 80%;
   position: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   color: var(--mygreen);
+  font-size: 20px;
 }
 
 #ntext{
   color: var(--mygreen);
+  font-size: 24px;
   }
 
-#navbarDropdown{
-}
+#ntext2 {
+  color: var(--mygreen);
+  font-size: 24px;
+  }
+
 
 #navbarDropdown2{
   background-color: var(--mygreen);
