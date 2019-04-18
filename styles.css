@@ -38,7 +38,7 @@ html {
 }
 
 nav {
-  background-color: #F2F2F2;
+  background-color: white;
   width: 80%;
   position: center;
   text-align: center;
@@ -50,12 +50,12 @@ nav {
 
 #ntext{
   color: var(--mygreen);
-  font-size: 24px;
+  font-size: 20px;
   }
 
 #ntext2 {
   color: var(--mygreen);
-  font-size: 24px;
+  font-size: 20px;
   }
 
 
