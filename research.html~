@@ -22,10 +22,16 @@
             <li class="nav-item">
                <a class="nav-link" href="photos">Field Photos</a>
             </li>
-            <li class="nav-item ">
-               <a id="ntext" class="nav-link active" href="research">Research</a>
+            <li class="nav-item dropdown active">
+               <div id="#ntext"> 
+                  <a class="nav-link dropdown-toggle" href="research" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+               </div>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a id="navbarDropdown2" class="dropdown-item active" href="research">Projects</a>
+                  <a class="dropdown-item" href="publications">Publications</a>
+                  <a class="dropdown-item" href="downloads">Downloads</a>
+               </div>
             </li>
-
          </ul>
     </div>
    </nav>
@@ -37,41 +43,18 @@
    </header>
    <body>  
       <div class="main">
-         <br>
          <h1 style="text-align:center;">Research Projects</h1>
-         <br>
-         <div class="tablehl">
-             <div class="hl"></div>
-         </div>
-         <br> 
+        
          <h2 style="text-align:right;">Mantle Structure beneath South America</h2>
          <p style="text-align:right;"><i>from Finite-Frequency Teleseismic S-wave Tomography</i></p>
-         <p style="text-align:right;">Rodríguez, Portner, Beck, et al, in prep, 2019</p>
-	 <p style="float:right;width:57%">
-	   The Andean subduction zone spans approximately 7,000 km of the western South American margin, where the oceanic Nazca
-	   and Antarctic plates are presently subducting eastward beneath the continental South American plate. Previous seismic
-	   imaging work has shown that the structure of the Nazca plate exhibits significant variability along strike. Excluding
-	   global studies, previous work has focused on small regions of the slab and surrounding mantle at a time. We hope to improve
-	   upon this work by inverting for the velocity structure of the subduction zone in a single model, providing a high-resolution
-	   image on the continent-scale and the chance to look at the variability within the slab and mantle in its entirety. By using
-	   S-wave velocities, which are sensitive to different material properties than P-wave velocities, we hope to better characterize
-	   the ongoing processes of the subduction zone, particularly in the mantle.
-	 </p>
-	 <figure style="float:left;width:40%">
-          <img style="float:left; padding: 0px 10px 10px 0px; width:100%" src="img/MAP_SA.png">  
-          <figcaption style="float:left;text-align:center;"> Cross-section through our S-wave velocity model. The magenta line denotes
-           the location of the Nazca slab from Slab2 (<a href="https://doi.org/10.5066/F7PV6JNV">Hayes, et al., 2018</a>).  </figcaption>
-         </figure>
-</style>
-	 <br>
-         <div class="tablehl">
-	     <div class="hl"></div>
-         </div>
-	 <br>
- 
+        <p style="text-align:right;">Rodríguez, Portner, Beck, et al, in prep,2019</p>
+
+        <img style="float:left; padding: 0px 10px 10px 0px;" src="">
+         <p style="text-align:left;">
+         </p>
         <h2>Responses to Ridge Subduction: Patagonia, Chile</h2>
         <p style="text-align:left;"><i>from Teleseismic Receiver Functions</i></p>
-           <p style="text-align:left;">Rodríguez and Russo, in review <i>Geosphere</i>, 2019</p>
+           <p style="text-align:left;">Rodríguez and Russo, submitted, 2019</p>
         <p style="float:left;width:57%">
            The tectonics of Patagonia are largely dominated by the subduction of the Chile Ridge, the active spreading 
            ridge between the Antarctic and Nazca plates, which intersects the Chile trench forming a trench-trench-ridge
@@ -79,7 +62,7 @@
            been associated with diachronously developed variable structure and magmatism of overriding South America, 
            where important differences between morphology and structures are found in fore-arc areas north and south 
            of the present Chile triple junction (e.g., Ramos, 1989; Gorring, et al., 1997). To assess the crustal structure
-           and understand how these tectonic processes affected the region, we combined data from two seismic networks, 
+           and glean insight into how these tectonic processes affected the region, we combined data from two seismic networks, 
            the Chile Ridge Subduction Project and Seismic Experiment of Aisen Chile - yielding a total of 77 broadband 
            seismic stations - deployed from 2004 to 2007 for receiver function analysis.
         </p>
@@ -87,7 +70,7 @@
         <figure style="float:right;width:40%">
           <img style="float:right; width:100%" src="img/CTJEffects.png">  
           <figcaption style="float:left;text-align:center;"> Simplified map of Patagonia highlighting the subduction 
-           of the Chile ridge and related magmatic activities (purple) (modified from <a href="https://doi.org/10.1016/j.jvolgeores.2009.11.022">
+           of the Chile ridge and related magmatic activities (modified from <a href="https://doi.org/10.1016/j.jvolgeores.2009.11.022">
            Boutonnet, et al., 2010</a>).</figcaption>
         </figure>
 

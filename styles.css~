@@ -33,22 +33,6 @@ header img {
   margin-right: auto;
 }
 
-.tablehl {
-    background-size: cover;
-    display: table;
-    position: relative;
-    table-layout: fixed;
-    width: 100%;
-}
-
-.hl {
-  border-top: 3px solid gray;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
 html {
   height: 100%;
 }
@@ -226,34 +210,57 @@ p.gm-style-pbt {
   color: var(--myred);
   cursor: pointer;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 50px;
+  background-size: 100%, 100%;
+  background-image: none;
 }
 
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.carousel-control-next-icon:after
+{ 
+  content: '\2771';
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 2px #333;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+.carousel-control-prev-icon:after {
+  content: '\2770';
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 2px #333;
 }
 
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+.carousel-indicators {
+  bottom: -8px;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+.carousel-indicators li {
+  background-color:  rgb(0,0,0,0.7);
+}
+
+.carousel-inner {
+  background-color: white;
+}
+
+
+.carousel-inner img {
+  height: 70vh;
+  object-fit: contain;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.carousel-caption {
+  color: white;
+  text-shadow: 1px 1px 2px #333;
+  padding: 20px 0px 0px 0px;
+  bottom: 60px;
+  font-weight: bold;
+
 }

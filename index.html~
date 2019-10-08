@@ -24,8 +24,13 @@
             <li class="nav-item">
                <a class="nav-link" href="photos">Field Photos</a>
             </li>
-            <li class="nav-item">
-               <a class="nav-link" href="research">Research</a>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="research" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="research">Projects</a>
+                  <a class="dropdown-item" href="publications">Publications</a>
+                  <a class="dropdown-item" href="downloads">Downloads</a>
+               </div>
             </li>
          </ul>
     </div>
@@ -44,14 +49,12 @@
           <p><img style="width:39%; float:left; padding: 0px 15px 0px 0px;" src="img/home.JPG"> </p>
           <h2 style="text-align:center;">Hello!</h2>
           <p>
-             I am a 3rd year PhD candidate in the 
+             I am a 2nd year PhD candidate in the 
              <a href="https://www.geo.arizona.edu/gsat/home">Global Seismology and Tectonics Lab Group</a>
              at the University of Arizona <a href="https://www.geo.arizona.edu">Department of Geosciences</a> with Dr. Susan
-             Beck. My research is primarily centered around the South America subduction zone and the active tectonic processes
-	     responsible for the formation of the Andes through the lense of seismic imaging techniques. I spend most of my time
-	     in my office squinting at squiggles (seismograms), but I can also be found outside hiking, climbing, or running around Tucson. 
-
-
+             Beck. My research interests, broadly speaking, are centered around the dynamics of subduction zones through the lens of
+             seismic imaging techniques. These interests have led me to a few projects in South America, some of 
+             which have included field work, both broadband and nodal.
           </p>
           <h2 style="text-align:center;">Contact</h2>
           <p   style="text-align:center;">University of Arizona<br>
