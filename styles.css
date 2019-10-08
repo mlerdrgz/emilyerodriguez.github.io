@@ -229,7 +229,7 @@ p.gm-style-pbt {
 .row {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
 
 }
 
