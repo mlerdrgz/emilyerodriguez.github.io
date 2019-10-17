@@ -151,6 +151,12 @@ p.gm-style-pbt {
   width:80%;
 }
 
+.container {
+  position: relative;
+  width: 25%;
+  max-width: 300px;
+}
+
 
 .card {
   cursor: pointer;
