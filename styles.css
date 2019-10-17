@@ -95,8 +95,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-
-
 }
 
 h1 {
@@ -152,7 +150,6 @@ p.gm-style-pbt {
 }
 
 .container {
-  position: relative;
   width: 100%;
 }
 
@@ -182,23 +179,25 @@ p.gm-style-pbt {
   width: 90vw;
   height: 90vh;
 }
+
 .overlay {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
   opacity:0;
   color: white;
   font-size: 20px;
-  padding: 20px;
   text-align: center;
 }
+
 .container:hover .overlay {
   opacity: 1;
 }
+
 .sidenav {
   height: 100%;
   width: 0; /*Change in main.js*/
@@ -247,6 +246,7 @@ p.gm-style-pbt {
   color: var(--myred);
   cursor: pointer;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -261,7 +261,6 @@ p.gm-style-pbt {
 }
 
 .column img {
-
   vertical-align: middle;
   width: 100%;
 }
