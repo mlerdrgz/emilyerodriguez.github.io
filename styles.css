@@ -149,11 +149,6 @@ p.gm-style-pbt {
   width:80%;
 }
 
-.container {
-  width: 100%;
-}
-
-
 .card {
   cursor: pointer;
 }
@@ -180,23 +175,6 @@ p.gm-style-pbt {
   height: 90vh;
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
 
 .sidenav {
   height: 100%;
